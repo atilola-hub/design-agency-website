@@ -64,16 +64,22 @@ a {
     background-color: #20B15A;
      margin-bottom: 20px; 
 }
-    .first {
-        width: 88.71px;
-        height: 29.11px;
-        top: 46.26px;
-        left: 115px;
-    }
-    .second {
-        width: 141.94px;
-        height: 29.11px;
-        top: 46.26px;
-        left: 353.71px;
+.icon-sec {
+    width: 1,440px;
+    height: 120px;
+    top: 683px;
+    color: #F8FFF9;
+}
+.image-pic {
+    width: 1,181.93px;
+    height: 31.36px;
+    top: 44px;
+    left: 115px;
+}
+.first {
+    width: 88.7px;
+    height: 29.11px;
+    top: 46.26px;
+    length: 115px;
 
-    }
+}
