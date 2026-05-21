@@ -63,5 +63,17 @@ a {
     color: white;
     background-color: #20B15A;
      margin-bottom: 20px; 
-    /* border-color ; */
 }
+    .first {
+        width: 88.71px;
+        height: 29.11px;
+        top: 46.26px;
+        left: 115px;
+    }
+    .second {
+        width: 141.94px;
+        height: 29.11px;
+        top: 46.26px;
+        left: 353.71px;
+
+    }
