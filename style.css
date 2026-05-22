@@ -9,6 +9,9 @@
     box-sizing: border-box;
     font-family: Poppins;
 }
+body {
+    overflow-x: hidden;
+}
 
 
 .container {
@@ -30,7 +33,7 @@
 .pen span {
     color: #f55f1d;
 }
-a {
+a, a:active,a:visited {
     text-decoration: none;
     color: #000000;
     font-weight: 500;
@@ -64,22 +67,34 @@ a {
     background-color: #20B15A;
      margin-bottom: 20px; 
 }
-.icon-sec {
+ .image-pic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 1,440px;
     height: 120px;
-    top: 683px;
     color: #F8FFF9;
+    padding: 20px 100px;
+    animation: partner 10s linear infinite;
 }
-.image-pic {
+.memo {
+    background-color: #D7F5DC;
+    width: 100vw;
+    height: 30px;
+}
+/* .image-pic {
     width: 1,181.93px;
     height: 31.36px;
     top: 44px;
     left: 115px;
-}
-.first {
-    width: 88.7px;
-    height: 29.11px;
-    top: 46.26px;
-    length: 115px;
-
+    animation: partner 10s linear infinite;
+    
+} */
+@keyframes partner {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
