@@ -30,6 +30,10 @@ body {
     font-weight: 700;
     font-size:1.25rem;
 }
+.pen #green button {
+    color: #20B15A;
+
+}
 .pen span {
     color: #f55f1d;
 }
