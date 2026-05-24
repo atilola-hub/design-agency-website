@@ -19,12 +19,16 @@ body {
     width: 1650.6px;
     height: 959.41px;
 }
-button .bend {
-    padding: 11.46px;
+
+  /* .bend {
     gap: 11.46px;
     border: 1.15px;
+    border-radius: 11.46px;
+} */
+    
 
-}
+
+
  .pen {
     display: flex;
     justify-content: space-between;
