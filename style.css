@@ -21,6 +21,8 @@ body {
 }
 button .bend {
     padding: 11.46px;
+    gap: 11.46px;
+    border: 1.15px;
 
 }
  .pen {
