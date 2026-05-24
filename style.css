@@ -16,6 +16,12 @@ body {
 
 .demo {
     background-color: #D7F5DC;
+    width: 1650.6px;
+    height: 959.41px;
+}
+button .bend {
+    padding: 11.46px;
+
 }
  .pen {
     display: flex;
@@ -30,10 +36,8 @@ body {
     font-weight: 700;
     font-size:1.25rem;
 }
-.pen #green button {
-    color: #20B15A;
 
-}
+
 .pen span {
     color: #f55f1d;
 }
