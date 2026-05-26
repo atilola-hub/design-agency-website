@@ -1,90 +1,95 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agency Landing Page</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Landing Page</title>
   </head>
   <body>
-    <div class="demo">
-      <header>
-        <nav>
-          <div class="pen">
-            <p>Design<span>AGENCY</span></p>
-            <a href="#"
-              >Services
-              <svg
-                width="10"
-                height="10"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M17.9549 6.61623C17.7205 6.38189 17.4026 6.25024 17.0712 6.25024C16.7397 6.25024 16.4218 6.38189 16.1874 6.61623L9.99994 12.8037L3.81244 6.61623C3.57669 6.38853 3.26093 6.26254 2.93319 6.26538C2.60544 6.26823 2.29193 6.39969 2.06017 6.63145C1.82841 6.86321 1.69695 7.17673 1.6941 7.50448C1.69125 7.83222 1.81724 8.14797 2.04494 8.38373L9.11619 15.455C9.3506 15.6893 9.66848 15.821 9.99994 15.821C10.3314 15.821 10.6493 15.6893 10.8837 15.455L17.9549 8.38373C18.1893 8.14932 18.3209 7.83143 18.3209 7.49998C18.3209 7.16852 18.1893 6.85064 17.9549 6.61623Z"
-                  fill="black"
-                />
-              </svg>
-            </a>
-            <a href="#">About Us</a>
-            <a href="#">Contact Us</a>
-            <button>Login</button>
-            <button>Register</button>
-          </div>
-        </nav>
-      </header>
+    <!-- Header -->
+    <header id="hero">
+      <p>Design<span>AGENCY</span></p>
 
-      <section class="get-started">
-        <div class="left">
-          <h2>Increase Your Customers Loyalty and Satisfaction</h2>
-          <p>
-            We help businesses like yours earn more customers, standout from
-            competitors, make more money
-          </p>
-          <button class="btn-get-started">Get started</button>
-        </div>
-        <div class="right">
-          <img src="assets/pixel38.png" alt="">
-        </div>
-    </div>
-      <div class="image-pic">
-        <img class="first" src="assets/google-logo.png" alt="">
-        <img class="second" src="assets/trello-logo.png" alt="">
-        <img class="third" src="assets/logo-monday.png" alt="">
-        <img class="fourth" src="assets/notion-img.png" alt="">
-        <img class="fifth" src="assets/slack-img.png" alt="">
-      </div>
-      </section>
-      </div>
- 
-      <!-- duplicate -->
-      <!-- <div class="image-pic">
-        <img class="first" src="assets/google-logo.png" alt="" />
-        <img class="second" src="assets/trello-logo.png" alt="" />
-        <img class="third" src="assets/logo-monday.png" alt="" />
-        <img class="fourth" src="assets/notion-img.png" alt="" />
-        <img class="fifth" src="assets/slack-img.png" alt="" />
-      </div> -->
-      <!--  -->
-      <!-- <div class="textT"><div class="memo"> -->
-        <section>
-        <h2>WHAT WE DO</h2>
-        <p>We provide the Perfect Solution to your business growth</p>
-        <img src="assets/pixellab1.png" alt="">
-        <img src="assets/pixellab2.png" alt="">
-        <img src="assets/pixellab3.png" alt="">
-        </section>
-        <section>
-          <img src="assets/completed projects.png" alt="">
-          <img src="assets/customer satisfaction.png" alt="">
-          <img src="assets/Frame 10.png" alt="">
-          <img src="assets/Frame 10.png" alt="">
-        </section>
-        <section>
-          <h2>OUR PORTFOLIO</h2>
-          <p>We provide the Perfect Solution to your business growth</p>
+      <nav>
+        <ul id="details">
+          <li>
+            <a href="#">Services</a> <img src="assets/Vector.svg" alt="" />
+          </li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <button>Login</button>
+          <button class="register-btn">Register</button>
+        </ul>
+      </nav>
+    </header>
 
-        </section>
-    </body>
+    <!-- First Section -->
+    <section class="hero-container">
+      <div class="hero-left">
+        <h1>Increase Your Customers Loyalty and Satisfaction</h1>
+        <p>
+          We help businesses like yours earn more customers, standout from
+          competitors, make more money
+        </p>
+        <button>Get Started</button>
+      </div>
+
+      <div class="hero-right">
+        <img src="assets/hero.png" alt="" />
+      </div>
+    </section>
+
+    <!-- Second Section -->
+    <section class="partners">
+      <img src="assets/google-logo.png" alt="" />
+      <img src="assets/trello-logo.png" alt="" />
+      <img src="assets/logo-monday.png" alt="" />
+      <img src="assets/notion-img.png" alt="" />
+      <img src="assets/slack-img.png" alt="" />
+
+      <!-- Duplicate -->
+      <img src="assets/google-logo.png" alt="" />
+      <img src="assets/trello-logo.png" alt="" />
+      <img src="assets/logo-monday.png" alt="" />
+      <img src="assets/notion-img.png" alt="" />
+      <img src="assets/slack-img.png" alt="" />
+    </section>
+    <div class="bottom-container"></div>
+
+    <!-- Third Section -->
+    <section class="business-growth">
+      <h2>What we do</h2>
+      <p>We provide the Perfect Solution to your business growth</p>
+    </section>
+
+    <!-- Fourth Section -->
+    <section class="business-icon">
+
+      <!-- First div -->
+      <div class="activity">
+        <img src="assets/Activity.png" alt="" />
+        <h3>Grow Your Business</h3>
+        <p>We help identify the best ways to improve your business</p>
+        <button class="activity-btn">Learn More &#8594;</button>
+      </div>
+
+      <!-- Second div -->
+      <div class="activity">
+        <img src="assets/Heart.png" alt="" />
+        <h3>Improve brand loyalty</h3>
+        <p>We help identify the best ways to improve your business</p>
+        <button class="activity-btn">Learn More &#8594;</button>
+      </div>
+
+      <!-- Third div -->
+      <div class="activity">
+        <img src="assets/work.png" alt="" />
+        <h3>Improve Business Model</h3>
+        <p>We help identify the best ways to improve your business</p>
+        <button class="activity-btn">Learn More &#8594;</button>
+      </div>
+    </section>
+g
+  </body>
 </html>
