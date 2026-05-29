@@ -219,9 +219,10 @@ animation: partners-animation 5s linear infinite ;
     right: 1px;
     padding: 40px;
     gap: 15px;
+    color: #C4C4C480;
 }
 .text p {
-    width: 100%;
+    width: 160px;
     height: 24px;
     font: poppins;
     font-weight: 500;
@@ -233,12 +234,9 @@ animation: partners-animation 5s linear infinite ;
 }
 .text span {
     color: #20B15A;
-    font-family: Avenir;
-    font-weight: 800;
-    font-style: Black;
-    size: 40px;
-    line-height: 60%;
-    letter-spacing: 0%;
+    width: 95px;
+    height: 60px;
+    
 }
 
 
@@ -330,3 +328,84 @@ animation: partners-animation 5s linear infinite ;
     line-height: 60%;
     letter-spacing: 0%;
 }
+.heroSection h2 {
+    color: #20B15Agi;
+}
+.varietySection {
+    display: flex;
+}
+.white img {
+    width: 561px;
+    height: 342.31px; 
+}
+
+
+.auction, .mark {
+    display: flex;
+}
+.auction {
+    width: 561px;
+    height: 677.01px;
+    top: 874px;
+    left: 113px;
+    gap: 42.79px;
+}
+.auction img {
+    width: 561px;
+    height: 522.97px;
+}
+.auction h2 {
+    width: 394px;
+    height: 34px;
+    font: poppins;
+    font-weight: 600;
+    size: 22.82px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.deskDiv {
+    width: 554px;
+    height: 504.52px;
+    top: 1050px;
+    left: 769px;
+    gap: 55.4px;
+}
+.deskDiv img {
+    width: 554px;
+    height: 338.03px;
+}
+.deskDiv h2 {
+    font: poppins;
+    font-weight: 600;
+    size: 22.54px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+/* .white h2 {
+    font: poppins;
+     font-weight: 600;
+     size: 22.82px;
+     color: #000000;
+}
+.interface {
+    width: 561.15px;
+    height: 675.06px;
+    gap: 42.64px;
+    margin-top: 279px;
+    margin-left: 769px;
+}
+.interface img {
+    width: 561.15px;
+    height: 521.21px;
+}
+.interface h2 {
+    width: 392px;
+    height: 34px;
+    font: poppins;
+    font-weight: 600;
+    size: 22.74px;
+    color: #000000;
+} */
+
+
