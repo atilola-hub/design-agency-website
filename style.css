@@ -204,11 +204,15 @@ animation: partners-animation 5s linear infinite ;
 }
 .info-container {
     display: flex;
-    justify-content: centergit;
+    justify-content: center;
     background-color: #FAFFFB;
     width: 100%;
     height: 420px;
     top: 1542px;
+}
+.customerText p {
+    white-space: nowrap;
+    
 }
 
 
@@ -234,8 +238,14 @@ animation: partners-animation 5s linear infinite ;
 }
 .text span {
     color: #20B15A;
-    width: 95px;
+    width: 122px;
     height: 60px;
+    font: Avenir;
+    font-weight: 800;
+    font-style: Black;
+    size: 40px;
+    line-height: 60px;
+    letter-spacing: 0%;
     
 }
 
@@ -328,20 +338,69 @@ animation: partners-animation 5s linear infinite ;
     line-height: 60%;
     letter-spacing: 0%;
 }
-.heroSection h2 {
-    color: #20B15Agi;
-}
-.varietySection {
+.portfolio {
     display: flex;
+    justify-content: center;
+}
+.heroSection {
+     
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+} 
+ /* .heroSection h2 {
+    
+    font: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #20B15A;
+    width: 155px;
+    height: 30px;
+    top: 62px;
+    left: 113px;
+    white-space: nowrap;
+}
+.heroSection p {
+    font: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    width: 495px;
+    height: 90px;
+    top: 116px;
+    left: 113px;
+} */ 
+
+.projects {
+     display: flex;
+    justify-content: center;
+    justify-items: center;
 }
 .white img {
     width: 561px;
     height: 342.31px; 
 }
-
-
-.auction, .mark {
+.panel {
     display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.interfaceDiv, .deskDiv {
+    margin-top: 70px;
+}
+.demoDiv, .interfaceDiv {
+    margin-top: 0px;
+
+}
+.demoDiv, .auction {
+    margin-right: 100px;
 }
 .auction {
     width: 561px;
@@ -363,17 +422,16 @@ animation: partners-animation 5s linear infinite ;
     line-height: 100%;
     letter-spacing: 0%;
 }
-.deskDiv {
+
+.deskDiv img {
     width: 554px;
     height: 504.52px;
     top: 1050px;
     left: 769px;
     gap: 55.4px;
 }
-.deskDiv img {
-    width: 554px;
-    height: 338.03px;
-}
+
+
 .deskDiv h2 {
     font: poppins;
     font-weight: 600;
@@ -382,30 +440,8 @@ animation: partners-animation 5s linear infinite ;
     letter-spacing: 0%;
     color: #000000;
 }
-/* .white h2 {
-    font: poppins;
-     font-weight: 600;
-     size: 22.82px;
-     color: #000000;
+.auto-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.interface {
-    width: 561.15px;
-    height: 675.06px;
-    gap: 42.64px;
-    margin-top: 279px;
-    margin-left: 769px;
-}
-.interface img {
-    width: 561.15px;
-    height: 521.21px;
-}
-.interface h2 {
-    width: 392px;
-    height: 34px;
-    font: poppins;
-    font-weight: 600;
-    size: 22.74px;
-    color: #000000;
-} */
-
-
