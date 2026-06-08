@@ -445,3 +445,20 @@ animation: partners-animation 5s linear infinite ;
     justify-content: center;
     align-items: center;
 }
+.graphic {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 1440px;
+    height: 499px;
+    top: 4344px;
+    margin-top: 150gpx;
+}
+.ending-div-h2{
+    text-align: center;
+    color: #20B15A;
+    padding-bottom: 0.7rem;
+}
+.graphic span {
+    color: #8B8B8B;
+}
